@@ -2,8 +2,19 @@ import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
 export const JsArray = () => {
+/* el metodo pop sirve para sacar el ultimo elemento del array y el metodo push para agregar */
 
+const frutas = ['banana','manzana','naranja']
+const numeros = [2,4,6]
+
+frutas.pop()
+console.log(frutas)
+frutas.push('mango')
+console.log(frutas)
     
+const jsArray3 = numbers.map(function (numero){
+    return numeros*2
+})
   return (
       <>
           <h2>Array</h2>

@@ -3,6 +3,23 @@ import { BtnPrimary } from '../BtnPrimary'
 
 export const ObjetosLiterales = () => {
 
+    const persona ={
+        nombre: 'Claudio',
+        apellido: 'Ucello',
+        edad: 46,
+        direccion: {
+            calle: 'calle 1',
+            puerta: 1234,
+            zip: 4321,
+        }
+    }
+    console.log(persona)
+
+    const persona2 = {...persona}
+    persona2.nombre = 'Emma'
+    persona2.apellido = 'Brandel'
+    persona2.edad = 19
+
 
     return (
         <>

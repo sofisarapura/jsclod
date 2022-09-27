@@ -3,6 +3,11 @@ import { BtnPrimary } from '../BtnPrimary'
 
 export const TemplateString = () => {
 
+    const nombre = 'Sofia'
+    const apellido = 'Sarapura'
+
+    console.log('Hola' + ' ' + nombre + ' ' + apellido)
+    console.log('Hola ', $,{ nombre }, $,{apellido})
 
     return (
         <>
